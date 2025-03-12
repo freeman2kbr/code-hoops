@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+carne_asada_tacos:
+  name: Carne Asada Tacos
+  ingredients: <p>600g of carne asada</p><p>2 Bellpeppers (red and yellow preferable)</p><p>1 onion</p><p>Lettuce</p><p>Taco shells</p>
+  instructions: <p>Prepare the carne asada in a frying pan until ready.</p><p>Meanwhile, chop the onion, bellpeppers and lettuce in thin lines.</p><p>Remove the carne asada from the frying pan, chop it in small pieces and mount everything in the taco shells.</p>
+
+boiled_eggs:
+  name: Boiled Eggs
+  ingredients: <p>Eggs</p><p>500ml water</p>
+  instructions: <p>Put the egg on a pot and cover it with water.</p><p>Bring it to a boil then cover the pot and turn off the heat.</p><p>Let the eggs cook for around 10 minutes for hard boiled or 8 minutes for soft boiled.</p>

@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+dessert:
+  name: Dessert
+  total_recipes: 9
+
+main_dish:
+  name: Main dish
+  total_recipes: 15

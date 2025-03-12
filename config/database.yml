@@ -5,8 +5,8 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   host: <%= Rails.application.credentials.database_host %>
-  port: 3360
-  username: code_hoops
+  port: <%= Rails.application.credentials.database_port %>
+  username: <%= Rails.application.credentials.database_user %>
   password: <%= Rails.application.credentials.database_password %>
 
 

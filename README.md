@@ -10,4 +10,4 @@ Requirements:
 
 ## Credentials Configuration
 
-Before starting, set the __database_host__ and __database_password__ on the credentials file by using the command `EDITOR=vi rails credentials:edit`
+Before starting, set the __database_host__, __database_port__, __database_user__ and __database_password__ on the credentials file by using the command `EDITOR=vi rails credentials:edit --environment development`
